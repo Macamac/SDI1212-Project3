@@ -46,6 +46,12 @@ Use var array at senko taking shots at bhishma
 local var for quiver
 for loop with shots against bhishma
 use Aim.length to run the shots vs number of arrows pulled from quiver against the Aim array
+Var Arrow = 4
+Aim = ["shoulder", "thigh", "forearm"],
+Notch = [1,2,3,4],
+Aim.push("knee");
+for (var HtrShots = 0, Focus = Aim.length; HtrShots = Focus; HtrShots++, Arrow--) 
+console.log("Senko takes aim at Bhishma's" + aim[HtrShots] + ", pulls back to notch arrow " + Notch[HtrShots] " with " Arrow[HtrShots] " left in hand.")
 
 
 
