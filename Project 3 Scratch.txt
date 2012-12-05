@@ -1,0 +1,54 @@
+Story Scratch Pad
+
+Hunter Orc vs Warrior Orc
+Sparring
+
+Hunter could use ammo for arrows for loops, math
+
+Warrior can block/ arrows for different loop or hunter dodge/parry attacks
+
+
+Global Variables:
+Htr = "Senko"
+War = "Bhishma"
+Spar = true
+
+
+
+Local Variables
+Quiver = #
+Slash = 5
+WarMaxStam = 20
+
+Array 
+Var Aim = ["shoulder", "thigh", "forearm"]
+Aim.push("knee")
+Arrow in knee joke is passe, hah
+
+
+
+Story
+Bhishma sparring against Senko in Barren field
+//conditional
+If spar = true start the spar else part ways
+
+Orc spar more brutal than human, out to draw blood, more honor in eyes of orcs
+
+
+Bhishma tries to attack Senko, senko dodges three blows
+while loop for dodging the 4 sword attacks
+use math.floor
+WarMaxSlash = Math.floor(WarMaxStam/Slash)
+while (WarMaxStam > 1){ WarMaxSlash = Math.floor(WarMaxStam/Slash);
+
+
+Use var array at senko taking shots at bhishma
+local var for quiver
+for loop with shots against bhishma
+use Aim.length to run the shots vs number of arrows pulled from quiver against the Aim array
+
+
+
+
+Nested Conditional
+It ends bad or ends well and ends wells with them clasping hands in honor of the spar
