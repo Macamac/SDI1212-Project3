@@ -25,12 +25,83 @@ Var Aim = ["shoulder", "thigh", "forearm"]
 Aim.push("knee")
 Arrow in knee joke is passe, hah
 
+Object key:value
+students = {"","","",[],function(){},8888};
 
+accessor:
+students[key]
 
+function
+saHi: function (){
+console.log("Hi)};
+
+use function
+student.saHi();
+student["sayHi"]();
+
+for in loop
+for (var key in student) {
+console.log("key: " + key + ", value: ", student[key]};
+ results=   the key and values of the specified key in raw value cause of comma
+ 
+ 
+ Start
+ 
+Global Variables
+String/Number/Arrays
+Procedure (Argument>Procedure>Argument Conditional>True>Nested Conditional>True/False>Output>>>>
+ 													False>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Output	>Back)
+ 													
+ 
 Story
+
+Global Variables:
+Htr = "Senko"
+War = "Bhishma"
+Spar = true
+Class = ["Hunter", " Shaman", "Warrior]
+
+Bhishma grinned slightly towards Senko under the hot sky, eyes narrowing.
+The orc warrior puffed up his chest slightly towards the orc hunter
+"A Warrior losing to the likes of a hunter would never happen
 Bhishma sparring against Senko in Barren field
 //conditional
 If spar = true start the spar else part ways
+the "area" part of the Barrens, the air is "air", the field is "clutter", and is only "range" miles away
+l
+
+
+
+var locale2 = {
+		"scene" : [
+			{
+				"area": "north",
+				"air": "dry",
+				"clutter": "cracked and desolate",
+				"range": 10
+			},
+			{
+				"area": "midlands",
+				"air": "humid",
+				"clutter": "green with grass and trees",
+				"range": 20
+			},
+			{
+				"area": "south",
+				"air": "mild",
+				"clutter": "grassy and open",
+				"range": 30
+			}
+		]
+	};
+var areaChoose = function (locale){
+	for (var i = 0; i < locale.scene.length; i++) {
+		var barrens = locale.scene[i];
+			console.log("hello "+ barrens.area);
+	};
+};
+
+
 
 Orc spar more brutal than human, out to draw blood, more honor in eyes of orcs
 
