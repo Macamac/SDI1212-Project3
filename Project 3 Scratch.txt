@@ -11,7 +11,11 @@ Warrior can block/ arrows for different loop or hunter dodge/parry attacks
 Global Variables:
 Htr = "Senko"
 War = "Bhishma"
-Spar = true
+Spar = true,
+orcBhishma = "Warrior",
+orcSenko = "Hunter"
+UnDef = 20,
+Class = ["Hunter", " Shaman", "Warrior", "Priest"]
 
 
 
@@ -58,8 +62,13 @@ Story
 Global Variables:
 Htr = "Senko"
 War = "Bhishma"
-Spar = true
-Class = ["Hunter", " Shaman", "Warrior]
+Spar = true,
+Spat = false,
+Practice = true,
+orcBhishma = "Warrior",
+orcSenko = "Hunter"
+UnDef = 20,
+Class = ["Hunter", " Shaman", "Warrior", "Priest"]
 
 Bhishma grinned slightly towards Senko under the hot sky, eyes narrowing.
 The orc warrior puffed up his chest slightly towards the orc hunter
@@ -107,6 +116,24 @@ Orc spar more brutal than human, out to draw blood, more honor in eyes of orcs
 
 
 Bhishma charging for boolean
+Spar = true,
+Spat = false,
+Practice = true,
+var p = true, q = false, r = false;
+
+	
+// Given: (p ∧ q) ∨ r
+if ((Spar && Spat) || Practice) {
+    console.log("The expression is true");
+} else {
+    console.log("The expression is false")
+
+
+if ((enemyFound && playerFound) || playerSpotted){
+	console.log("\"Looks like friendlies, I should be able to greet them!\"");
+} else {
+	console.log("\"Looks like hostiles, I should back away from here.\"");
+};
 
 
 Use var array at senko taking shots at bhishma
@@ -114,12 +141,21 @@ local var for quiver
 for loop with shots against bhishma
 use Aim.length to run the shots vs number of arrows pulled from quiver against the Aim array
 Var Arrow = 4
-Aim = ["shoulder", "thigh", "forearm"],
+Aim = ["shoulder", "forearm", "knee"],
+Aim.push("ground");
 Notch = [1,2,3,4],
-Aim.push("knee");
+Wound = {
+	miss: "ground",
+	low: "knee",
+	middle: "forearm",
+	high: "shoulder"
+	};
+
 for (var HtrShots = 0, Focus = Aim.length; HtrShots = Focus; HtrShots++,) {
 	for
 console.log("Senko takes aim at Bhishma's" + aim[HtrShots] + ", pulls back to notch arrow " + Notch[HtrShots] " with " Arrow[HtrShots] " left in hand.")
+
+var Ouch = Aim.get
 
 Bhishma tries to attack Senko, senko dodges three blows
 while loop for dodging the 4 sword attacks
