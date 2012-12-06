@@ -7,11 +7,16 @@ Let's Spar
 alert("A Simple Spar!");
 
 var
-Htr = "Senko"
-War = "Bhishma"
+Htr = "Senko",
+War = "Bhishma",
+orcBhishma = "Warrior",
+orcSenko = "Hunter",
 Spar = true,
+Spat = false,
+RealFight = false,
 UnDef = 20,
 Class = ["Hunter", " Shaman", "Warrior", "Priest"]
+
 ;
 
 //Start
@@ -90,3 +95,21 @@ areaChoose(locale2);
 var Dest = locale.scene.Middle.area;
 console.log(War + " grinned, \" To the " + Dest + "!\"");
 console.log("****************************************************************************************");
+console.log(Htr + " held up his dragon-bone bow with both hands, repeling each strike from the " + Class[2] + ".");
+//String Function (Strings, String Prop, Local Var, String Concatenation, Return String Value
+if (orcBhishma = "Warior"){
+	var DefAtk = "Shield Bash";
+	console.log(War + " attempted one more strike against " + Htr + " but feigned the sword movement, surprising the " + Class[0] + " with a " +DefAtk + ".");
+};
+console.log(Htr + " took the brundt of the hit upon his shoulder, faltering back slightly.");
+console.log(War + " saw this as an opening for a charge attack.");
+//Boolean Function
+if ((Spar && Spat) || RealFight) {
+    console.log(War + " feels that this is a friendly spar and should go easy on " + Htr + ".");
+} else {
+    console.log("Orc spars are known to be fierce compared to the humans. " + War + " begins to charge at " + Htr + " with full speed, his sword straight before him to strike true his opponent.")
+};
+console.log("Instead of " + Htr + " attempting to move to the side, the " + Class[0] + " let his momentum assit by falling towards his back in the loft grass.");
+console.log(War +  " had a great start with his attack that the drop suprised him but couldn't slow down in time as " + Htr + " moved on the ground,");
+console.log("tripping " + War + " with a bit of foot work, causing the " + Class[2] + " to loose footing and fall foward, his sword tossing to the side.");
+

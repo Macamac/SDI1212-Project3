@@ -67,7 +67,7 @@ The orc warrior puffed up his chest slightly towards the orc hunter
 Bhishma sparring against Senko in Barren field
 //conditional
 If spar = true start the spar else part ways
-the "area" part of the Barrens, the air is "air", the field is "clutter", and is only "range" miles away
+	
 l
 
 
@@ -106,11 +106,7 @@ var areaChoose = function (locale){
 Orc spar more brutal than human, out to draw blood, more honor in eyes of orcs
 
 
-Bhishma tries to attack Senko, senko dodges three blows
-while loop for dodging the 4 sword attacks
-use math.floor
-WarMaxSlash = Math.floor(WarMaxStam/Slash)
-while (WarMaxStam > 1){ WarMaxSlash = Math.floor(WarMaxStam/Slash);
+Bhishma charging for boolean
 
 
 Use var array at senko taking shots at bhishma
@@ -121,11 +117,14 @@ Var Arrow = 4
 Aim = ["shoulder", "thigh", "forearm"],
 Notch = [1,2,3,4],
 Aim.push("knee");
-for (var HtrShots = 0, Focus = Aim.length; HtrShots = Focus; HtrShots++, Arrow--) 
+for (var HtrShots = 0, Focus = Aim.length; HtrShots = Focus; HtrShots++,) {
+	for
 console.log("Senko takes aim at Bhishma's" + aim[HtrShots] + ", pulls back to notch arrow " + Notch[HtrShots] " with " Arrow[HtrShots] " left in hand.")
 
+Bhishma tries to attack Senko, senko dodges three blows
+while loop for dodging the 4 sword attacks
+use math.floor
+WarMaxSlash = Math.floor(WarMaxStam/Slash)
+while (WarMaxStam > 1){ WarMaxSlash = Math.floor(WarMaxStam/Slash);
 
 
-
-Nested Conditional
-It ends bad or ends well and ends wells with them clasping hands in honor of the spar
