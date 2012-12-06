@@ -32,7 +32,7 @@ if (UnDef < 30){
 };
 console.log(Htr + " continued. \"But I'll allow you to choose where in the Barrens.\"");
 console.log(War + " thought on this for a moment.")
-//Array Function (Argument(Array), JSON(local var),Array Function, Local Var, For Loop,  False, Return Array, True, Output 
+//Object Function JSON(local var),Array Function, Local Var, For Loop,  False, Return Array, True, Output 
 var locale = {
 		"scene" : {
 			"North": {
@@ -87,5 +87,6 @@ var areaChoose = function (locale){
 	};
 };
 areaChoose(locale2);
-console.log(War + " grinned. \" To the Midlands!\"");
+var Dest = locale.scene.Middle.area;
+console.log(War + " grinned, \" To the " + Dest + "!\"");
 console.log("****************************************************************************************");
